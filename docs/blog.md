@@ -14,7 +14,7 @@ pageClass: routes
 
 ### 文章更新
 
-<Route author="hoilc" example="/google/sites/outlierseconomics" path="/google/sites/:id" :paramsDesc="['Site ID, 可在 URL 中找到']" radar="1" />
+<Route author="hoilc" example="/google/sites/outlierseconomics" path="/google/sites/:id" :paramsDesc="['Site ID, 可在 URL 中找到']" radar="1" rssbud="1"/>
 
 ## Hedwig.pub
 
@@ -46,6 +46,12 @@ pageClass: routes
 
 <Route author="DIYgod" example="/blogs/diygod/gk" path="/blogs/diygod/gk"/>
 
+## JustRun
+
+### JustRun
+
+<Route author="nczitzk" example="/justrun" path="/justrun"/>
+
 ## LaTeX 开源小屋
 
 ### 首页
@@ -65,6 +71,10 @@ pageClass: routes
 ### Essays
 
 <Route author="Maecenas" example="/blogs/paulgraham" path="/blogs/paulgraham"/>
+
+## WordPress
+
+<Route author="Lonor" example="/blogs/wordpress/lawrence.code.blog" path="/blogs/wordpress/:domain/:https?" :paramsDesc="['WordPress 博客域名', '默认 https 协议。填写 `http`或`https`']"/>
 
 ## 阿里云系统组技术博客
 
@@ -87,6 +97,12 @@ pageClass: routes
 ### 首页
 
 <Route author="kt286" example="/daxiaamu/home" path="/daxiaamu/home"/>
+
+## 建宁闲谈
+
+### 文章
+
+<Route author="changlan" example="/blogs/jianning" path="/blogs/jianning" radar="1" rssbud="1"/>
 
 ## 敬维博客
 
