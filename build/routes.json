@@ -22590,9 +22590,7 @@
           "supportScihub": false
         },
         "name": "Image New Tag",
-        "maintainers": [
-          "pseudoyu"
-        ],
+        "maintainers": [],
         "description": ":::warning\n  Use `library` as the `owner` for official images, such as [https://rsshub.app/dockerhub/tag/library/mysql](https://rsshub.app/dockerhub/tag/library/mysql)\n  :::",
         "location": "tag.ts"
       }
@@ -54761,14 +54759,14 @@
     "url": "mrm.com.cn",
     "lang": "zh-CN"
   },
-  "mwm": {
+  "mvm": {
     "routes": {
       "/:category?": {
         "path": "/:category?",
         "categories": [
           "journal"
         ],
-        "example": "/mwm",
+        "example": "/mvm",
         "parameters": {
           "category": "分类，见下表，默认为本期要目"
         },

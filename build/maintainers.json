@@ -1826,9 +1826,7 @@
   "/dockerhub/repositories/:owner": [
     "CaoMeiYouRen"
   ],
-  "/dockerhub/tag/:owner/:image/:limits?": [
-    "pseudoyu"
-  ],
+  "/dockerhub/tag/:owner/:image/:limits?": [],
   "/docschina/weekly/:category?": [
     "daijinru",
     "hestudy"
@@ -4467,7 +4465,7 @@
   "/mrm/:category?": [
     "TonyRL"
   ],
-  "/mwm/:category?": [
+  "/mvm/:category?": [
     "nczitzk"
   ],
   "/my-formosa/": [

@@ -9490,7 +9490,7 @@
         docs:"https://docs.rsshub.app/routes/journal",
         source:[ "/web/:category",
           "/" ],
-        target:"/mwm/:category?" } ] },
+        target:"/mvm/:category?" } ] },
   "my-formosa.com":{ _name:"美麗島電子報",
     ".":[ { title:"首页",
         docs:"https://docs.rsshub.app/routes/new-media",
